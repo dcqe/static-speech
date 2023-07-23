@@ -7,3 +7,6 @@ serve -s build
 
 or:
 serve -s build -l 4000
+
+============
+npx serve -s build 
