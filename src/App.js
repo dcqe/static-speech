@@ -15,10 +15,10 @@ function App() {
         {
           // Routes
         }
-        <Route exact path={["/~ge47qut/cocktail/", "/~ge47qut/cocktail/cocktails"]} component={CocktailBrowser} />
-        <Route path={"/~ge47qut/cocktail/cocktails/:slug"} component={CocktailPage} />
-        <Route path="/~ge47qut/cocktail/my-bar" component={Bar} />
-        <Route path="/~ge47qut/cocktail/settings" component={Settings} />
+        <Route exact path={["/", "/cocktails"]} component={CocktailBrowser} />
+        <Route path={"/cocktails/:slug"} component={CocktailPage} />
+        <Route path="/my-bar" component={Bar} />
+        <Route path="/settings" component={Settings} />
       </Router>
     </Theme>
   );
